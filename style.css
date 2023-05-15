@@ -1,0 +1,98 @@
+ /* CSS Reset */
+ body{
+    margin: 0px;
+    padding: 0px;
+    background: url('hi.jpg'); 
+}
+
+.left{
+display: inline-block;
+position: absolute;
+left: 55px;
+top: 30px;
+}
+.left img{
+    width: 152px;
+    height: 66px; 
+}
+.left div{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 33px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.center{
+display: block;
+width: 30%;
+margin:29px auto;
+}
+.right{  
+ position: absolute;
+ right: 34px;
+ top: 30px;
+ display: inline-block; 
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    display: flex;
+    font-size: 18px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar li a:hover ,.navbar li a.active{
+    text-decoration: underline;
+    background-color: rgb(233, 222, 222);
+    color: black;
+}
+   .btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+   }
+.btn:hover{
+    text-decoration: underline;
+    background-color: rgb(233, 222, 222);
+    color: black;
+}
+.container{
+    border: 2px solid white;
+    margin: 110px 80px;
+    padding: 34px 75px;
+    width: 35%;
+    border-radius: 20px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container button{
+
+display: block;
+margin: 40px auto;
+width:450px ;
+padding: 3px;
+border-radius: 10px;
+border: 2px solid ;
+}
